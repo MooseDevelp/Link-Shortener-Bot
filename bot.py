@@ -7,11 +7,11 @@ from os import environ
 from pyrogram import Client, filters
 from pyrogram.types import *
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-API_KEY = environ.get('API_KEY')
-API_URL = environ.get('API_URL')
+API_ID = environ.get('27846009')
+API_HASH = environ.get('c6766f34d9663f73e5ecaecf0383e763')
+BOT_TOKEN = environ.get('5826368775:AAEPLvv2cGo177pct7ha7X21cx2gMziC4lY')
+API_KEY = environ.get('20cd344c29cd7411e77360fd99ed82965621d56c')
+API_URL = environ.get('https://mdisklife.tk/api')
 
 akbotz = Client('link shortener bot',
              api_id=API_ID,
